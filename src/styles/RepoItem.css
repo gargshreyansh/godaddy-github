@@ -1,0 +1,25 @@
+.repo-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.repo-item.even {
+  background-color: #e7cccc;
+  color: #000000;
+}
+
+.repo-item.odd {
+  background-color: #d1e9f6;
+  color: #000000;
+}
+
+.repo-name {
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.repo-description {
+  padding-left: 20px;
+}

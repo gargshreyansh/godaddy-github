@@ -1,0 +1,53 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.repo-list-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+.repo-list-header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.repo-list-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.repo-link {
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+h1 {
+  position: sticky;
+  bottom: 0;
+  font-size: 2.5rem;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
